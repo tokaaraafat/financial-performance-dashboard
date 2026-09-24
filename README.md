@@ -11,6 +11,6 @@ An end-to-end Python pipeline and interactive dashboard that analyzes the relati
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
 ## Live Application & Code
-- 🚀 **Live Interactive App:** [View Live Streamlit Dashboard](https://financial-dashboard-tokaaraafat.streamlit.app/)
+[View Live Streamlit Dashboard](https://financial-dashboard-tokaaraafat.streamlit.app/)
+
