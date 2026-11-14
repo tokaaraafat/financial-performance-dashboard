@@ -68,48 +68,6 @@ interactive financial visualizations and metrics exploration.
 
 ------------------------------------------------------------------------
 
-## Financial Metrics
-  -----------------------------------------------------------------------
-  Metric                              Description
-  ----------------------------------- -----------------------------------
-  Quarterly Revenue                   Revenue reported by a company for
-                                      each financial quarter
-
-  50-Day Simple Moving Average (SMA)  Average closing price over the
-                                      previous 50 trading days
-
-  Annualized Volatility               A measure of the variability of
-                                      stock returns, annualized to
-                                      represent a yearly scale
-  -----------------------------------------------------------------------
-
-### Calculation Notes
-
-**50-Day SMA**
-
-The 50-day Simple Moving Average is calculated from the closing price:
-
-``` python
-sma_50 = closing_prices.rolling(window=50).mean()
-```
-
-**Annualized Volatility**
-
-Annualized volatility is commonly calculated from the standard deviation
-of daily returns:
-
-``` python
-daily_returns = closing_prices.pct_change()
-annualized_volatility = daily_returns.std() * (252 ** 0.5)
-```
-
-The annualization factor of 252 represents the approximate number of
-trading days in a year. These formulas describe the standard
-calculations; refer to the implementation in the source code for the
-exact behavior used by the application.
-
-------------------------------------------------------------------------
-
 ## Technology Stack
 
   Technology      Purpose
