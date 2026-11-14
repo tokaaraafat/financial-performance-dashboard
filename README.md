@@ -33,13 +33,6 @@ This project brings these perspectives together by:
 
 ## Live Dashboard
 
-```{=html}
-<p>
-```
-Explore the deployed application:
-```{=html}
-</p>
-```
 **[Open Financial Performance
 Dashboard](https://financial-dashboard-tokaaraafat.streamlit.app/)**
 
