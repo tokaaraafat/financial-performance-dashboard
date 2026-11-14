@@ -79,35 +79,35 @@ interactive financial visualizations and metrics exploration.
   Streamlit       Interactive dashboard development
   Plotly          Interactive data visualization
 
-------------------------------------------------------------------------
+---
 
 ## Project Workflow
 
-``` text
+```text
 Financial Webpages          Yahoo Finance
-       |                         |
-       v                         v
- BeautifulSoup                 yfinance
-       |                         |
-       v                         v
- Quarterly Revenue        Historical Stock Data
-       |                         |
-       +------------+------------+
-                    |
-                    v
-             Data Processing
-                 Pandas
-                    |
-                    v
+        |                         |
+        v                         v
+  BeautifulSoup                yfinance
+        |                         |
+        v                         v
+ Quarterly Revenue       Historical Stock Data
+        |                         |
+        +------------+------------+
+                     |
+                     v
+              Data Processing
+                  Pandas
+                     |
+                     v
              Financial Analysis
           SMA & Annualized Volatility
-                    |
-                    v
+                     |
+                     v
            Interactive Dashboard
-             Streamlit + Plotly
-------------------------------------------------------------------------
+              Streamlit + Plotly
+```
 
-
+---
 
 ## Author
 
@@ -115,7 +115,6 @@ Financial Webpages          Yahoo Finance
 
 [GitHub](https://github.com/tokaaraafat)
 
-------------------------------------------------------------------------
+---
 
-*An applied Python project exploring financial data collection,
-analysis, and interactive visualization.*
+*An applied Python project exploring financial data collection, analysis, and interactive visualization.*
