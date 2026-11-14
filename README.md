@@ -107,24 +107,7 @@ Financial Webpages          Yahoo Finance
              Streamlit + Plotly
 ------------------------------------------------------------------------
 
-## Skills Demonstrated
 
-This project demonstrates practical experience with:
-
--   **Python programming:** Building a data-focused application and
-    working with external data sources.
--   **Web scraping:** Extracting structured financial information from
-    webpages using BeautifulSoup.
--   **API-based data retrieval:** Collecting historical market data
-    through yfinance.
--   **Data cleaning and manipulation:** Preparing and organizing
-    datasets with Pandas.
--   **Financial data analysis:** Calculating moving averages and stock
-    volatility.
--   **Data visualization:** Building interactive charts with Plotly.
--   **Dashboard development:** Bringing data collection, analysis, and
-    visualization together using Streamlit.
-------------------------------------------------------------------------
 
 ## Author
 
